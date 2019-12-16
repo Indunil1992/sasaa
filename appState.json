@@ -1,0 +1,108 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "49db59ff-8ea9-4d40-a005-3c8bc35b4430": {
+        "id": "49db59ff-8ea9-4d40-a005-3c8bc35b4430",
+        "parent": null,
+        "name": "sasaa",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "5f1083b0-099d-401e-b60b-5e31a07f3390"
+        ],
+        "isRemovable": false,
+        "filePath": "sasaa"
+      },
+      "5f1083b0-099d-401e-b60b-5e31a07f3390": {
+        "id": "5f1083b0-099d-401e-b60b-5e31a07f3390",
+        "parent": "49db59ff-8ea9-4d40-a005-3c8bc35b4430",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sasaa/lambda.js",
+        "code": "exports.handler = async (event) => {\n    \n    return {\"message\": \"Successfully executed\"};\n};",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameget",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "49db59ff-8ea9-4d40-a005-3c8bc35b4430",
+    "openFiles": [
+      "5f1083b0-099d-401e-b60b-5e31a07f3390"
+    ],
+    "currentFileId": "5f1083b0-099d-401e-b60b-5e31a07f3390",
+    "resources": {
+      "apigusEast1sachithraAPInameget": {
+        "name": "apigusEast1sachithraAPInameget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "zrjp6rdv3b",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "tp5a22",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "sasaa",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576471885278
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sasaa",
+      "url": "https://github.com/Indunil1992/sasaa"
+    }
+  }
+}
